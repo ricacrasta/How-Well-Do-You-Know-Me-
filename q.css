@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+body{
+    background-color: rgb(216, 125, 50);
+}
+h1{
+    color: rgb(233, 233, 246);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.choices{
+    border:6px solid rgb(133, 79, 159);
+    background-color: rgb(255, 235, 154);
+    height: 100%;
+    width: 500px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+button{
+    padding: 4px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.score-board{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.message{
+    height: 2rem;
+}
+
+
