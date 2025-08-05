@@ -91,10 +91,3 @@ choices.forEach((control) => {
     })
 });
 
-
-/*✨ What Changed & Why It’s Better:
-Improvement	Why it’s Better
-✅ Used objects ({}) instead of if/else	Faster and cleaner than long if-chains
-✅ Reduced repetitive code	Less manual typing, easier to maintain
-✅ Grouped related HTML	Easier to scale and debug
-✅ Used data-* attributes	Keeps HTML and JS connected but separate in logic*/
